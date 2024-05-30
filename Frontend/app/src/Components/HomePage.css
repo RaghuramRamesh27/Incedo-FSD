@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Asserts/Blur.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-text {
+    font-size: 14px;
+    color: black;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+
+.home-content {
+    margin-top: 60px; 
+    text-align: center;
+    color:black;
+}
+
+.home-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
